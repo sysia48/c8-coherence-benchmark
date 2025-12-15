@@ -91,3 +91,20 @@ C8 Anchor
 
 Research use only.  
 Attribution required.
+
+
+
+---
+
+## How to run & Benchmark output
+
+pip install -r requirements.txt  
+python run_benchmark.py  
+
+The benchmark outputs a deterministic JSON artefact containing coherence (Σ), phase synchronization (PLV), entropy flow (ΔS), dynamic stability (Lyapunov), memory retention (MRI), diagnostic verdicts (PASS / FAIL / NO DATA), a UTC timestamp, and a cryptographic SHA-256 hash.
+
+This ensures repeatability, verifiability, and integrity of benchmark results across systems and environments.
+
+Author: Sylwia Romana Miksztal (Sysia)  
+Contact: s.miksztal@gmail.com  
+License: Research use only, attribution required.
