@@ -25,7 +25,7 @@ def plv(phases):
 
 def energy(signal):
     """Signal energy"""
-    return float(np.trapz(signal ** 2))
+    return float(np.trapezoid(signal ** 2))
 
 
 def delta_entropy(a, b):
