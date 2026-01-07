@@ -3,7 +3,7 @@ benchmark_output_*.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
